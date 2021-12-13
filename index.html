@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+</head>
+<style>
+    .navbar {
+        color: white;
+        background-color: black;
+      
+
+        border-radius: 10px;
+        /* position:fixed; */
+        height: 46px;
+        text-align: center;
+        /* padding-bottom: px; */
+        /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNSnmsLeLm_E1Y7GutpARYUhXWvMhzkdk6UQ&usqp=CAU);
+         */
+         
+
+
+
+    }
+    a:hover{
+        color: yellow;
+    }
+
+    .navbar a{
+        text-decoration: none;
+        color: white;
+    }
+    
+
+  nav ul li {
+        display: inline-block;
+        padding: 15px;
+        text-align: center;
+        margin-left: 42px;
+
+
+
+    }
+
+    .border {
+        border: 2px solid black;
+        background-image: url(https://images.ctfassets.net/81iqaqpfd8fy/7nC2vkQmKQuewiWm2QUEqy/2822e1ac110713175784bd6ffb7fa523/Running_Girl.jpg?h=620&w=1440);
+        background-repeat: no-repeat;
+        background-position: top right;
+        margin-top: 12px;
+        background-position: 100vh;
+
+        background-color: black;
+        height: 100vh;
+
+
+
+    }
+
+    .info {
+        margin-top: 10px;
+        margin-left: 50px;
+        border: 2px double blueviolet;
+        
+
+        width: 35vw;
+       
+
+        /* height: 100vh; */
+        padding-left: 85px;
+
+        padding-top: 15px;
+        background-color:pink;
+        color:steelblue;
+        box-sizing: border-box;
+        /* margin-bottom: 45px; */
+
+
+
+
+    }
+
+    /* #img {
+        float: left;
+
+
+    } */
+
+    .textdata {
+        color: black;
+    }
+
+    h3 {
+        text-decoration: underline;
+        text-align: center;
+        font-weight: bold;
+        padding-right: 124px;
+    }
+
+    .login {
+        font-weight: bold;
+       
+
+        /* padding-top: 12px; */
+        margin-top: 12px;
+
+
+    }
+    h2{
+        color: white;
+        text-align: left;
+        margin-left: 180px;
+        text-decoration: underline;
+
+    }
+    
+  .right{
+     display: block;
+     /* border: 2px solid red; */
+     float: right;
+     margin-top: 14px;
+     margin-right: 3px;
+     border-radius: 2px;
+     
+  }
+  .left{
+      float:left;
+      margin-top: 2px;
+  }
+  .features{
+      color: white;
+  }
+  h4{
+      margin-left: 15px;
+      font-weight: bolder;
+      text-decoration: underline;
+      font-size: 20px;
+  }
+  .features ul{ font-size: 16px;
+     
+      
+
+  }
+</style>
+
+<body>
+   
+    <div>
+        <nav class="navbar">
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contacts</a></li>
+                <!-- <li id="share"><a href="#">Share
+                </a>
+                </li> -->
+               <!-- <div style="display: flex; justify-content: top left;">
+                    <p align= left> -->
+                    <!-- <img id="img "
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNSnmsLeLm_E1Y7GutpARYUhXWvMhzkdk6UQ&usqp=CAU"
+                        height=45px width=45px alt="">
+                    </div> --> 
+                    <div class="right">
+                        <button>Email Us</button>
+                        <button>Share</button>
+                
+                    </div>
+                    <div class="left">
+                        <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/gym-logo-template-design-04d583c8ca3558ea0ea21763a57e7ba6_screen.jpg?ts=1604496976" alt="" width="64px" height="42px">
+                    </div>
+
+            </ul>
+              
+    
+           
+                
+
+        </nav>
+    </div>
+  
+    <div class="border">
+        <h2>Welcome To My Fitness Gym!!</h2>
+        <div class="features" >
+            <h4>Features:</h4>
+            <ul type="disc">
+            <li>Well Equiped</li>
+            <li>1:1 Personal training</li>
+            <li>Cycling Studio</li>
+            <li>Member's Lounge</li>
+            <li>Security</li>
+        </ul>
+        </div>
+
+        <div class="info">
+
+
+            <div class="login" id=log>
+                <h3>REGISTER</h3>
+                Name:<input type="text" class="textdata" placeholder="Enter your name">
+
+
+            </div>
+            <div class="login">
+                Age:<input type="number" class="textdata" min="18">
+                <br>
+
+            </div>
+            <div class="login">
+                Gender: <input type="radio" name="gender" class="textdata">Male
+                <input type="radio" name="gender" class="textdata">Female
+
+            </div>
+            <div class="login">
+                Mob.No.:<input type="text" class="textdata"><br>
+
+
+            </div>
+            <div class="login">
+                Email:<input type="email" class="textdata"><br>
+
+            </div>
+            <div class="login">
+                Why do you want to join? <input type="text" class="textdata">
+
+            </div>
+            <div>
+                <input type="submit" style="margin-top: 12px;">
+
+
+                <input type="reset">
+            </div>
+
+        </div>
+     
+    </div>
+   
+
+</body>
+
+</html>
